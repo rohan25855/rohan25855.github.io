@@ -1,6 +1,6 @@
 *{
-    box-sizing: border-box;
-    font-size: 20px;
+    	box-sizing: border-box;
+    	font-size: 20px;
 	font-style: sans-serif;
 }
 h1{
@@ -36,9 +36,9 @@ article{
 /********** For Desktops ONLY **********/
 @media(min-width: 992px){
     .col-lg-41, .col-lg-42, .col-lg-43{
-    	border: 2px solid black;
-    	height: 250px;
-    	float: left;
+		border: 2px solid black;
+		height: 250px;
+		float: left;
 		padding: 20px;
 		padding-top: 0px;
 		padding-right: 0px;
@@ -46,7 +46,7 @@ article{
 		width: 31.33%;
     }
     .col-lg-41{
-    	background-color: gray;
+    		background-color: gray;
     }
     .col-lg-42{
 		background-color: orange;
@@ -57,10 +57,10 @@ article{
 }
 /********** For Tablets ONLY **********/
 @media (min-width: 768px) and (max-width: 991px){
-	.col-md-61, .col-md-62, .col-md-12{
-    	border: 2px solid black;
-    	height: 250px;
-    	float: left;
+		.col-md-61, .col-md-62, .col-md-12{
+		border: 2px solid black;
+		height: 250px;
+		float: left;
 		padding: 20px;
 		padding-top: 0px;
 		padding-right: 0px;
@@ -68,21 +68,21 @@ article{
 		width: 48%;
 	}
     .col-md-61{
-    	background-color: gray;
+    		background-color: gray;
     }
     .col-md-62{
 		background-color: orange;
     }
     .col-md-12{
-        background-color: brown;
-        width: 98%;
+		background-color: brown;
+		width: 98%;
     }
 }
 /********** For Mobiles ONLY **********/
 @media (max-width: 767px){
     .col-sm-121, .col-sm-122, .col-sm-123{
-    	border: 2px solid black;
-    	height: 250px;
+		border: 2px solid black;
+		height: 250px;
 		padding: 20px;
 		padding-top: 0px;
 		padding-right: 0px;
