@@ -1,0 +1,53 @@
+/* Desktop: md, Tablet: sm, Mobile: xs */
+#header, #button{
+	background-color: black;
+}
+.navbar-default .navbar-brand, .navbar-nav li a.dropdown-items{
+	font-size: 32px;
+	font-family: Montserrat;
+	color: green;
+}
+.navbar-nav li a.dropdown-items{
+	background-color: #102621;
+	font-size: 1.2em;
+	margin: 0 -15px 0 -15px;
+	border-top: 3.5px solid black;
+}
+#dropdownlist, .navbar, .navbar-default{
+	margin: 0;
+	border: 0;
+}
+#button, #button .icon-bar{ 
+	border: 2px solid green;
+}
+#button:hover{
+	background-color: gold;
+}
+#button:focus{
+	background-color: #386039;
+}
+#main{
+	background-color: #386039;
+	height: 100%;
+	margin: 0 25px 0 25px;
+}
+#bodytitle{
+	color: #011710;
+	font-size: 35px;
+	font-family: Roboto;
+	margin: 25px 0 25px 0;
+}
+hr{
+	border-color: black;
+	border-width: 2px;	
+}
+h4{
+	font-size: 25px;
+	color: black;
+	font-family: Roboto;
+}
+section{
+	color: black;
+	font-size: 18px;
+	font-family: Montserrat;
+}
